@@ -1,0 +1,32 @@
+site_name: Понятная документация
+site_description: Практическое руководство по текстам для цифровых продуктов
+site_url: https://pxdkxvan.github.io/style-guide-project/
+repo_url: https://github.com/pxdkxvan/style-guide-project
+repo_name: pxdkxvan/style-guide-project
+
+theme:
+  name: material
+  language: ru
+  features:
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+
+nav:
+  - Главная: index.md
+  - Основы:
+      - Голос и тон: voice.md
+      - Структура страницы: structure.md
+      - Термины: terms.md
+  - Практика:
+      - Интерфейсные тексты: interface.md
+      - Примеры кода: code.md
+      - Самопроверка: checklist.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+
