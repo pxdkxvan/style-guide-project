@@ -21,6 +21,7 @@ nav:
   - Практика:
       - Интерфейсные тексты: interface.md
       - Примеры кода: code.md
+      - Доступность: accessibility.md
       - Самопроверка: checklist.md
 
 markdown_extensions:
@@ -29,4 +30,3 @@ markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.superfences
-
